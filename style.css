@@ -1,0 +1,64 @@
+body{
+    background-image: url(StarWar/imagenes/sw_fondo.jpg);
+}
+#caja{
+    width: 900px;
+    border: 1px solid white;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: flex;
+}
+#caja img{
+    width: 40%;
+    display: block;
+}
+h1{
+    font-family: 'cinzel',serif;
+    text-align: center;
+    color: white;
+}
+h3{
+    color: yellow;
+    text-align: center;
+}
+p{
+color: white;
+}
+#contenedor{
+    width: 900px;
+    height: 900px;
+    border: 1px solid white;
+    margin: 30px auto;
+    display: flex;
+    padding: 15px;
+}
+.episodio img{
+    width: 100%;
+}
+#episodios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.episodio{
+    width: 30%;
+}
+#pie{
+    width: 900px;
+    height: 160px;
+    border: solid white;
+    margin: auto;
+    text-align: center;
+}
+#pie img{
+    width: 40%;
+    display: block;
+    margin: auto;
+  
+}
+#pie a{
+    color: blueviolet;
+}
